@@ -1,0 +1,158 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+main > .left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(220, 220, 220);
+}
+
+.left > .nav-l{
+  width: 100%;
+  height: 10%;
+}
+
+.nav-l{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.left>p{
+  margin-left: -180px;
+}
+
+.nav-l>i{
+  font-size: 25px;
+  margin-right: 3px;
+}
+
+.left>h1{
+  font-size: 50px;
+  font-family: "voyage" !important;
+  margin-top: 40px;
+  letter-spacing: 1.5px;
+}
+
+.left>.img{
+  margin-top: 20px;
+  height: 60%;
+  width: 90%;
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/31/21/33/greeting-1296493_1280.png);
+  background-size: cover;
+  background-position: center;
+
+}
+
+.nav-l>p{
+  font-size: 18px;
+}
+
+main > .right {
+  width: 40%;
+  height: 100%;
+}
+
+.right > .nav-r {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.nav-r > a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-r > button {
+  padding: 7px 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.right > .bottom {
+  margin-top: 5%;
+  width: 80%;
+  height: 80%;
+  margin-left: 20%;
+}
+
+.right > .bottom > input {
+  margin-bottom: 12px;
+  border: none;
+  border-bottom: 1.5px solid gray;
+  padding: 5px 150px;
+  padding-left: 0px;
+  font-size: 12px;
+}
+
+.bottom >label{
+  font-size: 12px;
+}
+
+
+.a {
+    width: 70%;
+    height: 15%;
+    font-size: 12px;
+    margin-top: 10px;
+    display: flex; 
+}
+
+.a > .lb{ 
+    width: 50%;
+    height: 100%;
+    padding-top: 0px;
+}
+
+.lb > input {
+  margin-bottom: 10px;
+}
+
+.a > .rb{ 
+    width: 50%;
+    height: 100%;
+}
+
+.rb > input {
+  margin-bottom: 10px;
+}
+
+.bottom > button {
+  margin-top: 18px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 12px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
